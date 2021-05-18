@@ -77,3 +77,7 @@
 .icon-streamline-umbrella-weather:before {
   content: "k";
 }
+
+h5 > span {
+  font-size: 14px;
+}
