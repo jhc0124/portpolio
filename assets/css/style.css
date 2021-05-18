@@ -616,7 +616,9 @@ ul.pattern .color12 {
 }
 
 
-#modal {
+#modal1,
+#modal2,
+#modal3 {
 	display: none;
 	position:relative;
 	width:100%;
@@ -624,25 +626,33 @@ ul.pattern .color12 {
 	z-index:1;
 }
 
-#modal h2 {
+#modal1 h2,
+#modal2 h2,
+#modal3 h2 {
 	margin:0;
 }
 
-#modal button {
+#modal1 button,
+#modal2 button,
+#modal3 button {
 	display:inline-block;
 	width:100px;
 	margin-left:calc(100% - 100px - 10px);
 }
 
-#modal .modal_content {
+#modal1 .modal_content,
+#modal2 .modal_content,
+#modal3 .modal_content {
 	width:100%;
-	margin:100px auto;
+	/*margin:100px auto;*/
 	padding:20px 10px;
 	background:#fff;
 	border:2px solid #666;
 }
 
-#modal .modal_layer {
+#modal1 .modal_layer,
+#modal2 .modal_layer,
+#modal3 .modal_layer {
 	position:fixed;
 	top:0;
 	left:0;
