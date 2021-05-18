@@ -34,6 +34,24 @@
   color: #fff;
 }
 
+.blue-border-button button {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #517df0;
+  padding: 12px 20px;
+  border: 1px solid #517df0;
+  border-radius: 24px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.blue-border-button button:hover {
+  background-color: #517df0;
+  color: #fff;
+}
+
 .blue-button a {
   font-size: 13px;
   text-transform: uppercase;
